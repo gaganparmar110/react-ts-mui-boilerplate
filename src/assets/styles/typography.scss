@@ -1,0 +1,56 @@
+@use "./mixins/index" as mixins;
+
+/* Text sm/Semibold */
+.text-sm-semibold {
+  @include mixins.text-sm-semibold();
+}
+
+/* Text md/Regular */
+.text-md {
+  @include mixins.text-md();
+}
+
+/* Text md/Medium */
+.text-md-medium {
+  @include mixins.text-md-medium();
+}
+
+/* Text sm/Regular */
+.text-sm {
+  @include mixins.text-sm();
+}
+
+/* Text lg/Regular */
+.text-lg {
+  @include mixins.text-lg();
+}
+
+/* Text lg/Semibold */
+.text-lg-semibold {
+  @include mixins.text-lg-semibold();
+}
+
+/* Text lg/Bold */
+.text-lg-bold {
+  @include mixins.text-lg-bold();
+}
+
+/* Display xs/Medium */
+.display-xs-medium {
+  @include mixins.display-xs-medium();
+}
+
+/* Text xl/Medium */
+.text-xl-medium {
+  @include mixins.text-xl-medium();
+}
+
+/* Display xs/Bold */
+.display-xs-bold {
+  @include mixins.display-xs-bold();
+}
+
+/* Display md/card/title */
+.display-md-card-title {
+  @include mixins.display-md-title();
+}
